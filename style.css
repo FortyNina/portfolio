@@ -114,6 +114,31 @@ p.textLeft {
   line-height: 130px;
 }
 
+.category-item-image{
+  width:49.5%;
+}
+
+.category-item-title-left{
+  position: absolute;
+  top: 6%;
+  left: 15%;
+  right: 55%;
+  font-family: titleFont;
+  font-size: 7vw;
+  text-align: right;
+}
+
+.category-item-title-right{
+  position: absolute;
+  top: 6%;
+  left: 65%;
+  right: 5%;
+  text-align: right;
+  font-family: titleFont;
+  font-size: 7vw;
+}
+
+
 .selectedItemBody{
   position: absolute;
   top: 35%;
@@ -130,16 +155,34 @@ p.textLeft {
   color: white;
 }
 
+.category-container{
+  position: relative;
+  color: white;
+}
 
 
+.name-upper-left{
+  font-size: 5.1vw;
+  font-weight: normal;
+  font-family: titleFont;
+  text-align: center;
+  margin: 0;
+  padding-left: 3%;
+}
 
-
+.category-image{
+  width: 46%;
+  margin-left: 54%;
+}
 
 .portrait{
   position: relative;
   transform: translate(350%, -120%);
   width: 20%;
 }
+
+
+
 
 
 #mainContents{
@@ -159,7 +202,7 @@ background-image: url('assets/images/backColor.png');
 
 h1{
     font-family: titleFont;
-    font-size: 6vw;
+    font-size: 9vw;
     color: white;
     margin: 0;
     text-align: center;
@@ -174,6 +217,14 @@ h1.selectedTitleLeft{
     font-weight:normal;
 
 }
+
+h1.category-title{
+  font-size: 12vw;
+  padding-left: 2.5%;
+  font-weight: normal;
+  margin-right:60%;
+}
+
 
 h4{
     font-family: titleFont;
@@ -293,29 +344,11 @@ img {
 }
 
 
-.flex-item-characters {
-  max-width: 18%;
-}
-
-.flex-item-snapshots {
-  max-width: 40%;
-  padding-top: 20px;
-}
-.flex-item-profiles{
-  max-width: 15%;
-
-}
-
-.flex-item-press{
-  max-width: 10.75%;
-  padding-left: 0px;
-  padding-right: 0px;
+.flex-item-category{
+  max-width: 49%;
+  padding-left: 1px;
+  padding-right: 1px;
   padding-bottom: 10px;
-
-
-}
-.flex-item-banner{
-  max-width: 40%;
 }
 
 /* parallax*/
@@ -362,26 +395,6 @@ img {
 }
 .keyart_layer.parallax {
   position: fixed;
-}
-
-
-#keyart-1 {
-  background-image: url("Images/transparentHorizon.png");
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  z-index: 0;
-
-}
-
-#keyart-2{
-  background-image: url("assets/rpfTitle2.png");
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  z-index: 0;
 }
 
 #keyart-3{

@@ -1,0 +1,172 @@
+
+@font-face{
+  src: url(assets/fonts/Gugi-Regular.ttf);
+  font-family: gugi;
+}
+
+@font-face{
+  src: url(assets/fonts/Courier.ttf);
+  font-family: secondaryFont;
+}
+
+
+html, body, div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+#banner {
+  height: 0px;
+
+}
+
+body {
+
+    background-color: rgb(46, 31, 34);
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+}
+
+
+
+#post{
+ width: 100%;
+ background-size: 100% ;
+    background-color: rgb(46, 31, 34);
+ background-repeat: repeat;
+
+ margin: 0;
+ padding: 0;
+ border: 0;
+ z-index: 0;
+ padding-bottom: 100px;
+}
+
+
+
+
+.blog-title{
+  color: white;
+  font-family : gugi;
+  font-size : 400%;
+  text-align: center;
+  padding-top: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.entry-title{
+  color: white;
+  font-family : gugi;
+  font-size : 200%;
+  text-align: center;
+  padding-top: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+
+}
+
+.date-title{
+  color: white;
+  font-family : secondaryFont;
+  font-size : 100%;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+
+
+}
+
+
+.body-title{
+  color: white;
+  font-family : secondaryFont;
+  font-size : 120%;
+  text-align: left;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 50px;
+
+}
+
+
+.body-image{
+  align-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.grid-image{
+  width:100%;
+}
+
+
+a{
+  text-decoration: underline;
+  text-decoration-color: white;
+  font-family: secondaryFont;
+  color: white;
+}
+
+a:link {
+  text-decoration: underline;
+  text-decoration-color: white;
+
+}
+
+
+
+a:visited {
+  text-decoration: underline;
+  text-decoration-color: white;
+
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+  color: red;
+}
+
+a:active {
+  text-decoration: underline;
+  text-decoration-color: white;
+
+
+}
+
+
+.flex-container {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: baseline;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+
+.flex-item-snapshot{
+  width:40%;
+}
+
+
+
+
+
+
+
+

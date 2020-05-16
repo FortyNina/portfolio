@@ -104,6 +104,15 @@ p.textLeft {
 
 }
 
+p.piece-footer{
+   color: white;
+  font-family : secondaryFont;
+  margin-left: 40%;
+  padding-right: 8%;
+    z-index: 10;
+  text-align: justify;
+}
+
 .selectedItemTitle{
   position: absolute;
   top: 6%;
@@ -175,6 +184,16 @@ p.textLeft {
   margin-left: 54%;
 }
 
+.piece-title-body{
+   position: absolute;
+  top: 55%;
+  left: 3%;
+  font-family: secondaryFont;
+  font-size: 1.5vw;
+  text-align: left;
+  margin-right: 60%;
+}
+
 .portrait{
   position: relative;
   transform: translate(350%, -120%);
@@ -223,6 +242,31 @@ h1.category-title{
   padding-left: 2.5%;
   font-weight: normal;
   margin-right:60%;
+}
+
+h1.piece-title{
+  position: absolute;
+  top: 2%;
+  right: 2%;
+  font-family: titleFont;
+  font-size: 13vw;
+  text-align: right;
+  line-height: 130px;
+  margin-left:60%;
+
+}
+
+h1.piece-home-title{
+  position: fixed;
+  top: 2%;
+  left: 2%;
+  text-align: left;
+  margin-right:50%;
+  font-size: 5.3vw;
+  font-weight: normal;
+  font-family: titleFont;
+  z-index: 10;
+
 }
 
 

@@ -111,6 +111,8 @@ p.piece-footer{
   padding-right: 8%;
     z-index: 10;
   text-align: justify;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 .selectedItemTitle{

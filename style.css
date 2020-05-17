@@ -397,6 +397,19 @@ img {
   padding-bottom: 10px;
 }
 
+.flex-item-piece{
+  max-width: 10%;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 25px;
+}
+
+.flex-item-piece-large{
+  max-width: 23%;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 25px;
+}
 /* parallax*/
 
 .keyart, .keyart_layer {

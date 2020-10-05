@@ -24,6 +24,12 @@ html, body, div {
 
 }
 
+#blogColumnBackground {
+    height: 100%;
+    background-repeat: repeat-y;
+    background-image: url("assets/images/backColorBrown.png");
+}
+
 body {
 
     background-color: rgb(207, 207, 201);
@@ -86,6 +92,31 @@ body {
   z-index: 10;
 }
 
+.leftLinkTop{
+  position: fixed;
+  top: 4.5%;
+  left: 25%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+.leftLinkMid{
+  position: fixed;
+  top: 8.5%;
+  left: 25%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+.leftLinkBottom{
+  position: fixed;
+  top: 12.5%;
+  left: 25%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+
 
 .aboutTitle{
   color: white;
@@ -114,6 +145,50 @@ p.piece-footer{
   padding-top: 2%;
   padding-bottom: 2%;
 }
+
+p.devlog-paragraph{
+  color: white;
+  font-family : secondaryFont;
+  margin-left: 8%;
+  padding-right: 20%;
+    z-index: 10;
+  text-align: justify;
+  padding-top: 2%;
+      background-image: none;
+
+  padding-bottom: 2%;
+}
+
+.devlog-content{
+  padding-top: .8%;
+  padding-left: 30%
+    
+}
+
+.devlog-post-title{
+color: white;
+  font-family : secondaryFont;
+  margin-left: 8%;
+  padding-right: 20%;
+  text-align: justify;
+  padding-top: 2%;
+  font-size: 3vw;
+  font-weight: bold;
+      background-image: none;
+
+}
+.devlog-post-date{
+color: white;
+  font-family : secondaryFont;
+  margin-left: 8%;
+  padding-right: 20%;
+  text-align: justify;
+  font-size: 1vw;
+  font-weight: bolder;
+      background-image: none;
+
+}
+
 
 .selectedItemTitle{
   position: absolute;
@@ -200,6 +275,14 @@ p.piece-footer{
   position: relative;
   transform: translate(350%, -120%);
   width: 20%;
+}
+
+.devlog-back-image{
+  position: fixed;
+
+  left: 30%;
+  height: 100%;
+  z-index: -10;
 }
 
 

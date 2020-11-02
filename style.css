@@ -1,6 +1,6 @@
 
 @font-face{
-  src: url(assets/fonts/Electrolize-Regular.ttf);
+  src: url(assets/fonts/Zector.otf);
   font-family: titleFont;
 }
 
@@ -124,6 +124,8 @@ body {
   padding-top: .3%;
   font-size : 10%;
   padding-left: 4%;
+    letter-spacing: 10px;
+
 }
 
 p.textLeft {
@@ -195,9 +197,10 @@ color: white;
   top: 6%;
   left: 2%;
   font-family: titleFont;
-  font-size: 13vw;
+  font-size: 14vw;
   text-align: left;
-  line-height: 130px;
+  line-height: 90%;
+  letter-spacing: 15px;
 }
 
 .category-item-image{
@@ -248,12 +251,13 @@ color: white;
 
 
 .name-upper-left{
-  font-size: 5.1vw;
+  font-size: 5.5vw;
   font-weight: normal;
   font-family: titleFont;
   text-align: center;
   margin: 0;
   padding-left: 3%;
+  letter-spacing: 2px;
 }
 
 .category-image{
@@ -269,6 +273,7 @@ color: white;
   font-size: 1.5vw;
   text-align: left;
   margin-right: 60%;
+
 }
 
 .portrait{
@@ -315,10 +320,12 @@ h1{
 
 h1.selectedTitleLeft{
   font-size: 8vw;
-   margin-right: 60%;
+   margin-right: 55%;
   padding-left: 7%;
     z-index: 10;
     font-weight:normal;
+    text-align: right;
+    line-height: .75;
 
 }
 
@@ -338,19 +345,22 @@ h1.piece-title{
   text-align: right;
   line-height: 130px;
   margin-left:60%;
+  line-height: .75;
+
 
 }
 
 h1.piece-home-title{
   position: fixed;
   top: 2%;
-  left: 2%;
+  padding-left: 3%;
   text-align: left;
   margin-right:50%;
-  font-size: 5.3vw;
+  font-size: 5.5vw;
   font-weight: normal;
   font-family: titleFont;
   z-index: 10;
+  letter-spacing: 2px;
 
 }
 

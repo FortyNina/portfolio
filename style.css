@@ -151,6 +151,18 @@ p.piece-footer{
   padding-bottom: 2%;
 }
 
+p.piece-center{
+   color: white;
+  font-family : secondaryFont;
+  padding-left: 20%;
+  padding-right: 20%;
+    z-index: 10;
+  text-align: justify;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  text-align: center;
+}
+
 p.devlog-paragraph{
   color: white;
   font-family : secondaryFont;
@@ -502,8 +514,8 @@ img {
 
 .flex-item-piece-large{
   max-width: 23%;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 1px;
+  padding-right: 1px;
   padding-bottom: 25px;
 }
 /* parallax*/
@@ -641,3 +653,9 @@ img {
 
 .zoom:hover {
   transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+
+
+
+
+
+
